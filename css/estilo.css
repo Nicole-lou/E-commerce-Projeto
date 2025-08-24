@@ -1,8 +1,10 @@
 /* configurações gerais*/
 
-*{
-    margin: 0; /* margem do lado de fora*/
-    padding: 0; /* margem do lado de dentro*/
+* {
+    margin: 0;
+    /* margem do lado de fora*/
+    padding: 0;
+    /* margem do lado de dentro*/
     box-sizing: border-box;
 }
 
@@ -21,15 +23,19 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: var(--text-color);
     background-color: var(--light-gray);
-    line-height: 1.6; /* altura da linha*/
+    line-height: 1.6;
+    /* altura da linha*/
 }
 
 header {
     background-color: var(--white-color);
-    padding: 16px 32px; /* 1. cima e baixo, 2.esquerda e direita*/
+    padding: 16px 32px;
+    /* 1. cima e baixo, 2.esquerda e direita*/
     display: flex;
-    align-items: center; /* alinhamento vertical*/
-    justify-content: space-around; /* espaçameto entre os elementos*/
+    align-items: center;
+    /* alinhamento vertical*/
+    justify-content: space-around;
+    /* espaçameto entre os elementos*/
 
 }
 
@@ -37,30 +43,37 @@ header {
 .logo {
     display: flex;
     align-items: center;
-    gap: 8px; /* espaçamento entre a logo e o texto*/
+    gap: 8px;
+    /* espaçamento entre a logo e o texto*/
 }
 
 h1 {
-    font-size: 32px; /* tamanho da fonte*/
+    font-size: 32px;
+    /* tamanho da fonte*/
     color: var(--primary-color);
-    font-weight: bold; /* negrito*/
+    font-weight: bold;
+    /* negrito*/
 }
 
 .container-buscar {
-    width: 100%; /* largura do container e vai ocupar todo o espaço*/
-    max-width: 500px; /* largura máxima do container*/
-    margin: 0 32px; /* centraliza o container*/
+    width: 100%;
+    /* largura do container e vai ocupar todo o espaço*/
+    max-width: 500px;
+    /* largura máxima do container*/
+    margin: 0 32px;
+    /* centraliza o container*/
     display: flex;
     align-items: center;
     padding: 8px 16px;
     background-color: var(--light-gray);
-    border-radius: 12px;    
+    border-radius: 12px;
 }
 
 .container-buscar input {
     width: 100%;
     border-radius: 12px;
-    outline: none; /* tirar a borda*/
+    outline: none;
+    /* tirar a borda*/
     background-color: var(--light-gray);
     padding: 8px;
     font-size: 16px;
@@ -70,7 +83,8 @@ h1 {
 /* menu de navegação */
 
 .container-categorias {
-    display: flex; /* ajuda a ficar um ao lado do outro*/
+    display: flex;
+    /* ajuda a ficar um ao lado do outro*/
     justify-content: center;
     background-color: var(--secondary-color);
 
@@ -110,3 +124,29 @@ h1 {
     background-color: var(--primary-color);
 }
 
+/* banner */
+.secao-hero {
+    background: #FF4111;
+    background: radial-gradient(circle, rgba(255, 65, 17, 1) 0%, rgba(52, 152, 219, 1) 80%);
+    color: var(--white-color);
+    text-align: center;
+    /* alinhamento de texto */
+    padding: 48px 32px;
+}
+
+.secao-hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.secao-hero p {
+    font-size: 18px;
+}
+
+/* rodape*/
+footer {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    text-align: center;
+    padding: 32px;
+}
